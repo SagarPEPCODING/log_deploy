@@ -1,0 +1,37 @@
+.login_container {
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex_row {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.form > label > input {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.form > label {
+  margin: 10px;
+}
+
+.form > label > div {
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
